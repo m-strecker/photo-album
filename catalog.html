@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Album</title> 
+        
+        
+       
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+       
+       
+       <!-- JQuery Script for altering grid styles-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            $(".item>p").css("font-family","arial");
+            $(".item>p").css("color","darkred");
+            $(".item>img").css("border","2px solid black");
+            
+          });
+        </script>
+
+    </head>
+
+    
+    
+    <body>
+        <!--Jumbotron-->
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1> This is the website jumbotron </h1>
+          </div>
+
+
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+
+            <a class="navbar-brand" href="startup_website.html"> LOGO </a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalog.html">Catalog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="feedback.html">Feedback</a>
+                  </li>    
+                </ul>
+            </div>
+           
+        </nav>
+
+        <div id="content">
+
+           <!--Grid System--> 
+          <div class="container-fluid">
+            
+            <div class="item">
+              <img src="./photos/pic1.jpg" alt="Image Source">
+              <p>Image Title: Painting 1</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic2.jpg" alt="Image Source">
+              <p>Image Title: Painting 2</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic3.jpg" alt="Image Source">
+              <p>Image Title: Painting 3</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic4.jpg" alt="Image Source">
+              <p>Image Title: Painting 4</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic5.jpg" alt="Image Source">
+              <p>Image Title: Painting 5</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+            
+            <div class="item">
+              <img src="./photos/pic6.jpg" alt="Image Source">
+              <p>Image Title: Painting 6</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic7.jpg" alt="Image Source">
+              <p>Image Title: Painting 7</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic8.jpg" alt="Image Source">
+              <p>Image Title: Painting 8</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+            <div class="item">
+              <img src="./photos/pic9.jpg" alt="Image Source">
+              <p>Image Title: Painting 9</p>
+              <P class="painter">By a member of the Group of 7</p>
+            </div> 
+
+          </div>
+
+        </div>
+
+        
+      
+        
+        
+         <!-- Location for loading JQuery, Popper and Bootstrap for JS -->
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+ 
+       
+    </body>
+
+ </html>
